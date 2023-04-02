@@ -29,7 +29,7 @@ function LoginPage(){
 
     <div class="container">
       <div class="wrapper">
-        <div class="title"><span>Login Form</span></div>
+        <div class="title"><span>Login </span></div>
         <form OnSubmit={handleLogin}>
           <div class="row">
             <i class="fas fa-user"></i>
