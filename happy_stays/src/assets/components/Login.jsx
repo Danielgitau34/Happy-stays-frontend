@@ -25,6 +25,35 @@ function LoginPage(){
   };
 
 
+  return (
+
+    <div class="container">
+      <div class="wrapper">
+        <div class="title"><span>Login Form</span></div>
+        <form OnSubmit={handleLogin}>
+          <div class="row">
+            <i class="fas fa-user"></i>
+            <input type="text" placeholder="email" value={email} onChange={(e) => setemail(e.target.value)} /> <br/>
+          </div>
+          <div class="row">
+            <i class="fas fa-lock"></i>
+            <input type="password" placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)} /> <br/>
+
+          </div>
+
+          <button type="submit">Login</button>
+
+          {/* <div class="row button">
+            <input type="submit"  value="Login">
+          </div> */}
+          <div class="signup-link">Don't have an account? <a href="/signup">Sign Up</a></div>
+        </form>
+      </div>
+    </div>
+
+  )
+
+
 
 }
 export default LoginPage
