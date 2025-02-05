@@ -91,6 +91,7 @@ body {
 
 .booking-form input,
 .booking-form select {
+    
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
